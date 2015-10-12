@@ -174,12 +174,14 @@ color: #6d839b;
 }
 
 #footer {
-	padding: 0px 30px 125px 30px;
+	padding-bottom: 125px;
+	font-size: 13px;
 }
 
 #footer span {
 	float: left;
 	color: #91afc9;
+	padding-left: 30px;
 }
 
 #footer span a {
@@ -191,6 +193,8 @@ color: #6d839b;
 
 .sub_navigation {
 float: right;
+padding-right:30px;
+
 }
 
 .sub_navigation li{
