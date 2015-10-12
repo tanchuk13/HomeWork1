@@ -95,12 +95,13 @@ a {text-decoration: none;
 	background: url("../img/layout/main-navigation-right.png") no-repeat 0 0;
 }
 
-
 #content {
 	margin-top: -50px;
 	padding-top: 60px;
 	width: 100%;
 	background-color: white;
+	
+	
 	}
 	
 #content form {
@@ -118,8 +119,6 @@ a {text-decoration: none;
 	overflow: hidden;
 	}	
 	
-
-
 .content_menu {
 	width: 190px;
 	margin-bottom: 50px;
@@ -130,7 +129,6 @@ a {text-decoration: none;
 	display: inline-block;
 	}
 
-
 .content_menu_name {
 	width: 190px;
 	padding: 20px 0px;
@@ -139,7 +137,6 @@ a {text-decoration: none;
 	background: url("../img/layout/cm_shadow.png") bottom repeat-x;
 	}
 
-	
 .content_menu_img {
 	padding: 20px 25px;
 	}
@@ -162,11 +159,12 @@ a {text-decoration: none;
 	}
 
 #description {
-	margin: 20px 0px;
+	margin-top: 20px;
 	background-color: #f3f7f9;
 	padding: 15px 30px 65px 30px;	
 	font: 19px 'Roboto' light;
 	background: url("../img/layout/decription_shadow.png") top repeat-x;
+	
 }
 
 #description p {
@@ -174,8 +172,11 @@ color: #6d839b;
 }
 
 #footer {
+	padding-top: 20px;
 	padding-bottom: 125px;
 	font-size: 13px;
+	background: url("../img/layout/footer_up_shadow.png") top repeat-x;
+	
 }
 
 #footer span {
@@ -209,7 +210,6 @@ overflow: hidden;
 .sub_navigation li a:hover{
 color:white;
 }	
-	
 	
 .sub_navigation a
 {
