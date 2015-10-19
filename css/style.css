@@ -9,7 +9,9 @@ html{
 }
 body {
 	font-family: Roboto, sans-serif;
-	}
+	background-image: url("../img/layout/light.png") no-repeat; 
+    background-position: topcenter; 
+		}
 
 h1 {
 	color: #184771;
@@ -74,7 +76,10 @@ a {text-decoration: none;
 	}
 
 	
-	.mn a {margin-top: -3px;}
+.mn a {
+margin-top: -3px;
+}
+
 .mn:after{
 	content: url("../img/layout/main-navigation-separation.png");
 }
@@ -107,7 +112,7 @@ a {text-decoration: none;
 	display: none;
 }
 .main-navigation li a:before{
-	left: -5px;
+	left: -4px;
 	background: url("../img/layout/main-navigation-left.png") no-repeat 0 0;
 }
 .main-navigation li a:after{
@@ -118,11 +123,9 @@ a {text-decoration: none;
 
 #header:after {
 content: url("../img/layout/corner_top.png");
-
 }	
 
 #content {
-
 background-color: white;
 }
 	
@@ -152,7 +155,6 @@ border-bottom: 1px solid #dfdfdf;
 	border: 1px solid #dfdfdf;
 	overflow: hidden;
 	display: inline-block;
-
 	}
 
 .content_division_name {
@@ -160,7 +162,6 @@ border-bottom: 1px solid #dfdfdf;
 	height: 50px;
 	padding: 20px 0px;
 	border-bottom: 1px solid #dfdfdf;
-	
 	background: url("../img/layout/cm_shadow.png") bottom repeat-x;
 	overflow: hidden;
 	}
@@ -175,7 +176,6 @@ border-bottom: 1px solid #dfdfdf;
 	}
 	
 .content_division_img img{
-	min-height:65px;
 	min-width: 35px;
 	}
 	
@@ -206,9 +206,7 @@ border-bottom: 1px solid #dfdfdf;
 	padding: 0px 30px 0px 30px;	
 	font: 19px 'Roboto' light;
 	background: url("../img/layout/decription_shadow.png") top repeat-x;
-	
-}
-
+	}
 
 #description p {
 color: #6d839b;
@@ -223,10 +221,10 @@ background: url("../img/layout/corner_bottom.png") no-repeat 0 0;;
 	padding-top: 20px;
 	padding-bottom: 125px;
 	font-size: 13px;
-	background-image: url("../img/layout/light_footer.png");
+	background: url("../img/layout/light_footer.png");
     background-repeat: no-repeat;
 	}
-
+	
 .legal {	
 	float: left;
 }
@@ -245,16 +243,14 @@ padding-left: 10px;
 	color: #5eacda;
 }
 
-
 .social   a:before {
-	content: url("../img/layout/twitt.png") ;
+content: url("../img/layout/twitt.png") ;
 }
 
 .sub_navigation {
 float: right;
 overflow: hidden;
 padding-right:30px;
-
 }
 
 .sub_navigation li{
